@@ -1,0 +1,164 @@
+:root{
+    --font-family: 'Raleway', sans-serif;
+    --color-blue: #2A7AE4;
+    --color-gray: #464646;
+    --color-white: #FFFFFF;
+    --color-footer: #EAF2FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+}
+
+ul, ol, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    margin-top: 10px;
+}
+
+.main{
+    width: 100vw;
+    height: 352px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#00000000, #000000CC), url("../assets/Hero.jpeg");
+}
+
+.main-container{
+    gap: 16px;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+    padding-bottom: 32px;
+    flex-direction: column;
+}
+
+.main-title{
+    font-size: 52px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-white);
+}
+
+.main-text{
+    font-size: 22px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-white);
+}
+
+.main-btn-consolas{
+    width: 129px;
+    height: 50px;
+    display: flex;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    font-family: Raleway;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+.productos{
+    width: 100vw;
+    padding-top: 64px;
+    background: #F5F5F5;
+}
+
+.star-wars{
+    gap: 16px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.star-wars-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star-wars-productos{
+    display: flex;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+
+.producto-details{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.star-wars-title{
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-gray);
+}
+
+.star-wars-button{
+    gap: 0 8px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    align-items: center;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-blue);
+}
+
+.icon-arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.producto-img{
+    height: 218px;
+}
+
+.producto-title, .producto-price, .producto-button{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-gray);
+}
+
+.producto-price{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.producto-button{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-blue);
+}

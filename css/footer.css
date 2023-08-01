@@ -1,0 +1,141 @@
+:root{
+    --font-family: 'Raleway', sans-serif;
+    --color-blue: #2A7AE4;
+    --color-gray: #464646;
+    --color-white: #FFFFFF;
+    --color-footer: #EAF2FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+}
+
+ul, ol, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer{
+    width: 100vw;
+    background-color: var(--color-footer);
+}
+
+.footer-container{
+    gap: 0 112px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    padding: 64px 0;
+    align-items: flex-start;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-image-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-image-title{
+    width: 126px;
+    height: 19px;
+    margin-left: -10px;
+}
+
+.footer-links{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link{
+    color: var(--color-gray);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-form{
+    gap: 16px;
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form-title{
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    color: var(--color-gray);
+}
+
+.form-input-name, .form-input-message{
+    border: none;
+    outline: none;
+    padding: 16px;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--color-gray);
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    font-family: Raleway;
+    background: var(--color-white);
+}
+
+.form-input-message{
+    padding: 32px  16px;
+}
+
+.form-button-send{
+    gap: 10px;
+    width: 144px;
+    height: 50px;
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+
+.developer{
+    width: 100vw;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.developer-info{
+    color: var(--color-gray);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

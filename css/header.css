@@ -1,0 +1,90 @@
+:root{
+    --font-family: 'Raleway', sans-serif;
+    --color-blue: #2A7AE4;
+    --color-gray: #464646;
+    --color-white: #FFFFFF;
+    --color-footer: #EAF2FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+}
+
+ul, ol, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list-item{
+    display: flex;
+    padding: 16px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item-logo{
+    width: 50px;
+    height: 50px;
+}
+
+.list-item-title{
+    width: 126px;
+    height: 19px;
+    margin-left: -10px;
+    margin-right: 32px;
+}
+
+.list-item-login{
+    gap: 10px;
+    width: 182px;
+    display: flex;
+    padding: 12px 5px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-blue);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    font-family: Raleway;
+    border: 1px solid var(--color-blue);
+}
+
+.list-item-form{
+    display: flex;
+    align-items: center;
+}
+
+.item-form-input{
+    gap: 8px;
+    border: none;
+    width: 393px;
+    outline: none;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 20px;
+    background: #F5F5F5;
+}
+
+.item-form-icon{
+    margin-left: -40px;
+}

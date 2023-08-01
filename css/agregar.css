@@ -1,0 +1,87 @@
+:root{
+    --font-family: 'Raleway', sans-serif;
+    --color-blue: #2A7AE4;
+    --color-gray: #464646;
+    --color-white: #FFFFFF;
+    --color-footer: #EAF2FD;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: var(--font-family);
+}
+
+ul, ol, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.producto{
+    gap: 16px;
+    width: 100vw;
+    padding: 64px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.producto-title{
+    color: var(--color-gray);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.producto-form{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto-form-input{
+    border: none;
+    width: 560px;
+    height: 56px;
+    outline: none;
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
+    font-style: normal;
+    border-radius: 4px;
+    font-family: Raleway;
+    color: var(--color-gray);
+    border-bottom: 1px solid #C8C8C8;
+    background-color: var(--color-white);
+}
+
+.producto-form-descripcion{
+    height: 82px;
+}
+
+.producto-form-button{
+    border: none;
+    display: flex;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    font-style: normal;
+    line-height: normal;
+    align-items: center;
+    font-family: Raleway;
+    justify-content: center;
+    color: var(--preto-branco, #FFF);
+    background-color: var(--color-blue);
+}
